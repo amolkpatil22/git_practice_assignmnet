@@ -9,7 +9,5 @@ if(count==2){
 console.log("prime")
 }
 else{
-console.log("number is not a prime")
+console.log("number is not prime")
 }
-
-
