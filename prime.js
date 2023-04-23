@@ -1,6 +1,6 @@
 let a=25
-let count=1
-for(let i=0;i<a.length;i++){
+let count=0
+for(let i=1;i<=a;i++){
 if(a%i==0){
 count++
 }
@@ -9,6 +9,7 @@ if(count==2){
 console.log("prime")
 }
 else{
-console.log("false")
+console.log("number is not a prime")
 }
+
 
